@@ -119,7 +119,7 @@ open class SBUContentBaseMessageCell: SBUBaseMessageCell {
     /// - alignment: `.bottom`
     /// - spacing: `4`
     public lazy var messageHStackView: UIStackView = {
-        return SBUStackView(axis: .horizontal, alignment: .bottom, spacing: 4)
+        return SBUStackView(axis: .vertical, alignment: .bottom, spacing: 4)
     }()
     
     /// Type specifying the maximum width of the message view
